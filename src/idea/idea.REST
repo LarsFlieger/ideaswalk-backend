@@ -1,0 +1,12 @@
+POST http://localhost:3000/idea
+Content-Type: application/json
+
+{
+    "title": "Feuer durch Erderwärmung",
+    "problem": "1. Online Shops verstehen Hand geschriebene Einkaufszettel nicht 2. Schreibt man eine Liste an Essen das man kaufen will muss man im Supermarkt nervig die Liste durchgehen",
+    "solution": "1. Tool welches Einkaufsliste in Produktliste verwandelt und deine persönlichen Präferenzen speichert und lernt2. Liste welche Einkäufe nach Type sortiert. (Alles Obst steht dann hintereinander) Man kann im Supermarkt einfacher die Liste abarbeiten"
+}
+
+
+###
+GET http://localhost:3000/idea
